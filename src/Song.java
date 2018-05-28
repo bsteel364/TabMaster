@@ -26,4 +26,12 @@ public class Song {
 		return this.name;
 	}
 	
+	public String getArtist() {
+		return this.artist;	
+	}
+	
+	public File getTab() {
+		return this.tab;
+	}
+	
 }
