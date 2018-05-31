@@ -15,6 +15,10 @@ public class Reader {
 			e.printStackTrace();
 		}
 		
+		
+		System.out.println("\n\n===========================================");
+		System.out.println(song.getName() + " - " + song.getArtist());
+		System.out.println("===========================================\n\n");
 		while(reader.hasNext()) {
 			System.out.println(reader.nextLine());
 		}

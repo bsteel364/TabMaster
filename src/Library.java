@@ -30,4 +30,11 @@ public class Library {
 		System.out.println("WARNING: Could not find song in Library \n Occured in:  Library.getTab(String songname)");
 		return null;
 	}
+	
+	public boolean contains(Song song) {
+		if(songList.contains(song)) {
+			return true;
+		}
+		return false;
+	}
 }
